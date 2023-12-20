@@ -14,7 +14,7 @@ export default function Home() {
     const extensions = [
       minimalSetup,
       lineNumbers(),
-      javascript({ jsx: true, typescript: true }),
+      javascript({ jsx: false, typescript: true }),
       EditorState.readOnly.of(true),
       EditorView.editable.of(false),
     ]
